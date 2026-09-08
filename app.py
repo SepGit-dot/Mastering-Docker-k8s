@@ -10,6 +10,7 @@ from pydantic import BaseModel, Field
 
 app = FastAPI(title="Customer Churn Prediction API")
 
+
 MODEL_PATH = Path("model.pkl")
 METRICS_PATH = Path("metrics.json")
 VERSION_PATH = Path("VERSION")
