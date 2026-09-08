@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: churn-prediction
+Version: 0.1.0
+Requires-Dist: pytest
+Requires-Dist: httpx
+Requires-Dist: anyio
+Requires-Dist: pytest-asyncio

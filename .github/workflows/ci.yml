@@ -22,7 +22,7 @@ jobs:
         with:
           python-version: "3.11"
           cache: "pip"
-      - run: pip install -r requirements.txt
+      - run: pip install -r requirements-dev.txt
       - run: ruff check .
 
   dependency-scan:
@@ -92,4 +92,4 @@ jobs:
         with:
           name: trained-model
       - run: pip install -r requirements.txt -r requirements-dev.txt
-      - run: pytest -v
+      - run: python -m pytest -v
