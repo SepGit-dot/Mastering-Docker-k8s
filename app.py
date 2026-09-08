@@ -26,6 +26,7 @@ FEATURE_COLUMNS = [
 
 templates = Jinja2Templates(directory="templates")
 
+
 def _load_model():
     """Load the trained model, failing loudly and clearly if it's missing.
 
