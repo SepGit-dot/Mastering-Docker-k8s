@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "churn-prediction"
+version = "0.1.0"
+dependencies = [
+    "pytest",
+    "httpx",
+    "anyio",
+    "pytest-asyncio"
+]
+
+[tool.setuptools]
+py-modules = []
