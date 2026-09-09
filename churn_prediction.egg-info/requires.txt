@@ -1,4 +1,0 @@
-pytest
-httpx
-anyio
-pytest-asyncio
